@@ -1,3 +1,3 @@
-import qrcode as qr
-my_QR= qr.make("https://github.com/AbhishekZamare/QR-generator.git")
-my_QR.save("QRgit.png")
+import qrcode as qr #import qrcode library
+my_QR= qr.make("https://github.com/AbhishekZamare/QR-generator.git") # here u can add anything u want in double quote
+my_QR.save("QRgit.png") # save the file in png format
