@@ -1,0 +1,3 @@
+import qrcode as qr
+my_QR= qr.make("https://github.com/AbhishekZamare/QR-generator.git")
+my_QR.save("QRgit.png")
